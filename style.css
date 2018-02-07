@@ -25,6 +25,18 @@ a:hover{
   color: rgb(50, 50, 50);
 }
 
+td{
+  padding-left: 20px;
+}
+.icone{
+  width: 50px;
+  height:50px;
+}
+
+.food{
+  width: 200px;
+}
+
 .img-circle {
   border-radius: 50%;
 }
@@ -32,13 +44,16 @@ a:hover{
   text-align: center;
 }
 .card-white {
-  background: white;
+  background: rgba(250, 250, 250, 0.5);
   padding: 5px;
   border: 0.2px solid lightgrey;
 }
+.img-movie{
+  width: 100px;
+}
 
-.img-movie {
-  width: 300px;
+td{
+  font-size: 15px;
 }
 
 .card{
@@ -65,16 +80,31 @@ a:hover{
   .container {
     width: 500px;
   }
+  .iframe{
+    width: 350px;
+  }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 400px;
   }
+  .img-movie{
+    width: 200px;
+  }
+  .iframe{
+    width: 200px;
+  }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+  }
+  .img-movie{
+    width: 150px;
+  }
+  .iframe{
+    width: 150px;
   }
 }
